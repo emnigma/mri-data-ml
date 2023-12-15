@@ -34,7 +34,7 @@ ESTIMATORS = dict([make_ovo(k, v) for k, v in ESTIMATORS.items()])
 
 X, y = load_cleaned_dataset()
 
-# X = StandardScaler().fit_transform(X, y)
+X = StandardScaler().fit_transform(X, y)
 
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, stratify=y, random_state=42

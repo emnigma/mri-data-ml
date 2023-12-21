@@ -4,7 +4,15 @@ from sklearn.ensemble import (
     GradientBoostingClassifier,
     RandomForestClassifier,
 )
-from sklearn.linear_model import LogisticRegression
+from sklearn.gaussian_process import GaussianProcessClassifier
+from sklearn.gaussian_process.kernels import (
+    RBF,
+    DotProduct,
+    Matern,
+    RationalQuadratic,
+    WhiteKernel,
+)
+from sklearn.linear_model import LogisticRegression, RidgeClassifier
 from sklearn.neighbors import KNeighborsClassifier, RadiusNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
@@ -13,9 +21,21 @@ N_JOBS = 8
 RS = 42
 
 ESTIMATORS = {
-    LogisticRegression(): {
-        "C": [0.1, 1, 10],
+    LogisticRegression(random_state=RS): {
+        "C": [0.01, 0.1, 0.5, 1, 5, 10],
         "penalty": ["l2"],
+    },
+    RidgeClassifier(random_state=RS): {
+        "alpha": [1, 0.5, 0.2, 0.1],
+    },
+    GaussianProcessClassifier(random_state=RS): {
+        "kernel": [
+            1 * RBF(),
+            1 * DotProduct(),
+            1 * Matern(),
+            1 * RationalQuadratic(),
+            1 * WhiteKernel(),
+        ]
     },
     DecisionTreeClassifier(random_state=RS): {
         "criterion": ["gini", "entropy", "log_loss"],

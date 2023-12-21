@@ -5,11 +5,15 @@ import pandas as pd
 import tqdm
 from sklearn.base import BaseEstimator
 from sklearn.metrics import accuracy_score
-from sklearn.model_selection import GridSearchCV, train_test_split
+from sklearn.model_selection import (
+    GridSearchCV,
+    RepeatedStratifiedKFold,
+    train_test_split,
+)
 from sklearn.multiclass import OneVsOneClassifier, OneVsRestClassifier
 from sklearn.preprocessing import StandardScaler
 
-from ml.estimators import ESTIMATORS
+from ml.estimators import ESTIMATORS, RS
 from ml.utils import load_cleaned_dataset
 
 logging.basicConfig(
@@ -48,7 +52,8 @@ for estimator in tqdm.tqdm(list(ESTIMATORS.keys())):
     X_train, y_train
 
     param_grid = ESTIMATORS[estimator]
-    grid = GridSearchCV(estimator, param_grid, scoring="accuracy", cv=5, n_jobs=N_JOBS)
+    cv = RepeatedStratifiedKFold(n_splits=5, n_repeats=3, random_state=RS)
+    grid = GridSearchCV(estimator, param_grid, scoring="accuracy", cv=cv, n_jobs=N_JOBS)
     grid.fit(X_train, y_train)
 
     y_pred = grid.predict(X_test)
@@ -63,4 +68,10 @@ for estimator in tqdm.tqdm(list(ESTIMATORS.keys())):
     run_results.append(run_result)
     logging.debug(run_result)
 
-pd.DataFrame(run_results).to_csv("run_results_ovo_noscale.csv")
+    means = grid.cv_results_["mean_test_score"]
+    params = grid.cv_results_["params"]
+
+    for mean, param in zip(means, params):
+        logging.debug(f"{estimator}:{mean:.3f} with: {param}")
+
+pd.DataFrame(run_results).to_csv("run_results_ovo_cont_reduced_features.csv")

@@ -74,4 +74,6 @@ for estimator in tqdm.tqdm(list(ESTIMATORS.keys())):
     for mean, param in zip(means, params):
         logging.debug(f"{estimator}:{mean:.3f} with: {param}")
 
-pd.DataFrame(run_results).to_csv("run_results_ovo_cont_reduced_features.csv")
+    pd.DataFrame(run_results).to_csv(
+        "run_results_ovo_cont_reduced_features_new_data.csv"
+    )

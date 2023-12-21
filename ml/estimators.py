@@ -43,8 +43,8 @@ ESTIMATORS = {
     },
     SVC(): {
         "kernel": ["linear", "poly", "rbf", "sigmoid"],
-        "gamma": [0.1, 1, 10, 100],
-        "C": [0.1, 1, 10, 100, 1000],
+        "gamma": [0.1, 1, 10],
+        "C": [0.1, 1, 10, 100],
     },
     AdaBoostClassifier(random_state=RS): {
         "estimator": [

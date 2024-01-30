@@ -1,0 +1,1238 @@
+Starting logging for fsqctools ...
+Logfile: ./mr-art_q1_incomplete/logfile.txt
+Version: 2.0.1
+Date: 30/01/2024 16:50:42
+Command: main.py
+Found subjects directory /home/max/MRI/mr-art_recon/subjects_ffs/1
+Found subject sub-108142_ffs
+Found subject sub-778481_ffs
+Found subject sub-257563_ffs
+Found subject sub-945122_ffs
+Found subject sub-987325_ffs
+Found subject sub-258056_ffs
+Found subject sub-275211_ffs
+Found subject sub-337488_ffs
+Found subject sub-697441_ffs
+Found subject sub-436999_ffs
+Found subject sub-723372_ffs
+Found subject sub-000148_ffs
+Found subject sub-914102_ffs
+Found subject sub-127867_ffs
+Found subject sub-152686_ffs
+Found subject sub-212152_ffs
+Found subject sub-567742_ffs
+Found subject sub-862915_ffs
+Found subject sub-966788_ffs
+Found subject sub-848092_ffs
+Found subject sub-401697_ffs
+Found subject sub-946200_ffs
+Found subject sub-000103_ffs
+Found subject sub-714347_ffs
+Found subject sub-680990_ffs
+Found subject sub-132674_ffs
+Found subject sub-691777_ffs
+Found subject sub-010769_ffs
+Found subject sub-185823_ffs
+Found subject sub-694330_ffs
+Found subject sub-253306_ffs
+Found subject sub-000149_ffs
+Found subject sub-926536_ffs
+Found subject sub-278729_ffs
+Found subject sub-107738_ffs
+Found subject sub-579247_ffs
+Found subject sub-365622_ffs
+Found subject sub-707576_ffs
+Found subject sub-886764_ffs
+Found subject sub-000159_ffs
+Found subject sub-691641_ffs
+Found subject sub-136038_ffs
+Found subject sub-652881_ffs
+Found subject sub-196711_ffs
+Found subject sub-122916_ffs
+Found subject sub-593354_ffs
+Found subject sub-581638_ffs
+Found subject sub-009673_ffs
+Found subject sub-890465_ffs
+Found subject sub-645865_ffs
+Found subject sub-195765_ffs
+Found subject sub-865293_ffs
+Found subject sub-012059_ffs
+Found subject sub-351288_ffs
+Found subject sub-335448_ffs
+Found subject sub-219843_ffs
+Found subject sub-409228_ffs
+Found subject sub-281888_ffs
+Found subject sub-938344_ffs
+Found subject sub-599619_ffs
+Found subject sub-687508_ffs
+Found subject sub-535925_ffs
+Found subject sub-402511_ffs
+Found subject sub-262577_ffs
+Found subject sub-664050_ffs
+Found subject sub-611047_ffs
+Found subject sub-754006_ffs
+Found subject sub-764976_ffs
+Found subject sub-561646_ffs
+Found subject sub-177856_ffs
+Found subject sub-307592_ffs
+Found subject sub-000175_ffs
+Found subject sub-143104_ffs
+Found subject sub-772389_ffs
+Found subject sub-282628_ffs
+Found subject sub-003617_ffs
+Found subject sub-292060_ffs
+Found subject sub-253493_ffs
+Found subject sub-440735_ffs
+Found subject sub-125171_ffs
+Found subject sub-169618_ffs
+Found subject sub-945652_ffs
+Found subject sub-407309_ffs
+Found subject sub-654601_ffs
+Found subject sub-740606_ffs
+Found subject sub-067018_ffs
+Found subject sub-603309_ffs
+Found subject sub-630780_ffs
+Found subject sub-570379_ffs
+Found subject sub-754183_ffs
+Found subject sub-149050_ffs
+Found subject sub-830976_ffs
+Found subject sub-217720_ffs
+Found subject sub-228373_ffs
+Found subject sub-153486_ffs
+Found subject sub-012322_ffs
+Found subject sub-105822_ffs
+Found subject sub-678878_ffs
+Found subject sub-000179_ffs
+Found subject sub-923660_ffs
+Found subject sub-988484_ffs
+Found subject sub-118003_ffs
+Found subject sub-089207_ffs
+Found subject sub-750675_ffs
+Found screenshot orientation set to radiological
+Starting fsqc for subject sub-108142_ffs at 2024-01-30 16:50 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 8.698
+Gray matter signal to noise ratio: 3.903
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.95
+Gray matter signal to noise ratio: 6.018
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003274
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 8
+Number of defects in the right hemisphere: 7
+Topological fixing time for the left hemisphere: 0.6 min
+Topological fixing time for the right hemisphere: 1.7 min
+Number of holes in the left hemisphere: 8
+Number of holes in the right hemisphere: 5
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.602
+WM/GM contrast SNR for the right hemisphere: 3.556
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0935, y = 0.00889, z = 0.1 radians.
+Finished subject sub-108142_ffs at 2024-01-30 16:50 MSK
+Starting fsqc for subject sub-778481_ffs at 2024-01-30 16:50 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 14.64
+Gray matter signal to noise ratio: 7.829
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 18.55
+Gray matter signal to noise ratio: 6.121
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.005093
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 10
+Number of defects in the right hemisphere: 11
+Topological fixing time for the left hemisphere: 0.7 min
+Topological fixing time for the right hemisphere: 1.2 min
+Number of holes in the left hemisphere: 11
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.964
+WM/GM contrast SNR for the right hemisphere: 3.735
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.201, y = -0.0374, z = 0.0799 radians.
+Finished subject sub-778481_ffs at 2024-01-30 16:51 MSK
+Starting fsqc for subject sub-257563_ffs at 2024-01-30 16:51 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 6.196
+Gray matter signal to noise ratio: 3.288
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.84
+Gray matter signal to noise ratio: 6.008
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003184
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 12
+Number of defects in the right hemisphere: 12
+Topological fixing time for the left hemisphere: 1.0 min
+Topological fixing time for the right hemisphere: 0.9 min
+Number of holes in the left hemisphere: 10
+Number of holes in the right hemisphere: 11
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.665
+WM/GM contrast SNR for the right hemisphere: 3.647
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0764, y = 0.0693, z = 0.054 radians.
+Finished subject sub-257563_ffs at 2024-01-30 16:51 MSK
+Starting fsqc for subject sub-945122_ffs at 2024-01-30 16:51 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 14.29
+Gray matter signal to noise ratio: 7.522
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.81
+Gray matter signal to noise ratio: 6.544
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002213
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 9
+Number of defects in the right hemisphere: 11
+Topological fixing time for the left hemisphere: 1.3 min
+Topological fixing time for the right hemisphere: 1.3 min
+Number of holes in the left hemisphere: 6
+Number of holes in the right hemisphere: 5
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.687
+WM/GM contrast SNR for the right hemisphere: 3.566
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.148, y = -0.0281, z = 0.0273 radians.
+Finished subject sub-945122_ffs at 2024-01-30 16:51 MSK
+Starting fsqc for subject sub-987325_ffs at 2024-01-30 16:51 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 9.32
+Gray matter signal to noise ratio: 5.52
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.95
+Gray matter signal to noise ratio: 5.745
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.0036
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 20
+Number of defects in the right hemisphere: 13
+Topological fixing time for the left hemisphere: 1.0 min
+Topological fixing time for the right hemisphere: 1.6 min
+Number of holes in the left hemisphere: 13
+Number of holes in the right hemisphere: 16
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.674
+WM/GM contrast SNR for the right hemisphere: 3.712
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.201, y = -0.0861, z = 0.0938 radians.
+Finished subject sub-987325_ffs at 2024-01-30 16:51 MSK
+Starting fsqc for subject sub-258056_ffs at 2024-01-30 16:51 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 8.518
+Gray matter signal to noise ratio: 5.332
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 22.65
+Gray matter signal to noise ratio: 6.017
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002384
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 11
+Number of defects in the right hemisphere: 6
+Topological fixing time for the left hemisphere: 0.5 min
+Topological fixing time for the right hemisphere: 1.0 min
+Number of holes in the left hemisphere: 11
+Number of holes in the right hemisphere: 1
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.832
+WM/GM contrast SNR for the right hemisphere: 3.814
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.169, y = 0.0298, z = 0.0741 radians.
+Finished subject sub-258056_ffs at 2024-01-30 16:51 MSK
+Starting fsqc for subject sub-275211_ffs at 2024-01-30 16:51 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 11.14
+Gray matter signal to noise ratio: 6.754
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.55
+Gray matter signal to noise ratio: 6.003
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003101
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 8
+Number of defects in the right hemisphere: 6
+Topological fixing time for the left hemisphere: 0.9 min
+Topological fixing time for the right hemisphere: 1.2 min
+Number of holes in the left hemisphere: 4
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.939
+WM/GM contrast SNR for the right hemisphere: 3.787
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.206, y = -0.0276, z = 0.0252 radians.
+Finished subject sub-275211_ffs at 2024-01-30 16:52 MSK
+Starting fsqc for subject sub-337488_ffs at 2024-01-30 16:52 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.77
+Gray matter signal to noise ratio: 7.216
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.94
+Gray matter signal to noise ratio: 6.403
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.004215
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 10
+Number of defects in the right hemisphere: 8
+Topological fixing time for the left hemisphere: 1.1 min
+Topological fixing time for the right hemisphere: 1.7 min
+Number of holes in the left hemisphere: 6
+Number of holes in the right hemisphere: 10
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.873
+WM/GM contrast SNR for the right hemisphere: 3.791
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.164, y = -0.029, z = 0.0563 radians.
+Finished subject sub-337488_ffs at 2024-01-30 16:52 MSK
+Starting fsqc for subject sub-697441_ffs at 2024-01-30 16:52 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.56
+Gray matter signal to noise ratio: 6.808
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 17.85
+Gray matter signal to noise ratio: 5.72
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003959
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 17
+Number of defects in the right hemisphere: 18
+Topological fixing time for the left hemisphere: 1.5 min
+Topological fixing time for the right hemisphere: 2.1 min
+Number of holes in the left hemisphere: 12
+Number of holes in the right hemisphere: 10
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.96
+WM/GM contrast SNR for the right hemisphere: 3.716
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.256, y = 0.0156, z = 0.0537 radians.
+Finished subject sub-697441_ffs at 2024-01-30 16:52 MSK
+Starting fsqc for subject sub-436999_ffs at 2024-01-30 16:52 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 9.631
+Gray matter signal to noise ratio: 5.409
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.5
+Gray matter signal to noise ratio: 6.299
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002869
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 10
+Number of defects in the right hemisphere: 10
+Topological fixing time for the left hemisphere: 0.9 min
+Topological fixing time for the right hemisphere: 1.1 min
+Number of holes in the left hemisphere: 6
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.919
+WM/GM contrast SNR for the right hemisphere: 3.832
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.373, y = 0.00855, z = 0.0637 radians.
+Finished subject sub-436999_ffs at 2024-01-30 16:52 MSK
+Starting fsqc for subject sub-723372_ffs at 2024-01-30 16:52 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 12.78
+Gray matter signal to noise ratio: 7.269
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.29
+Gray matter signal to noise ratio: 6.315
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.00335
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 14
+Number of defects in the right hemisphere: 8
+Topological fixing time for the left hemisphere: 0.8 min
+Topological fixing time for the right hemisphere: 0.7 min
+Number of holes in the left hemisphere: 4
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.94
+WM/GM contrast SNR for the right hemisphere: 3.696
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.429, y = -0.00662, z = 0.00353 radians.
+Finished subject sub-723372_ffs at 2024-01-30 16:52 MSK
+Starting fsqc for subject sub-000148_ffs at 2024-01-30 16:52 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 14.77
+Gray matter signal to noise ratio: 7.69
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.33
+Gray matter signal to noise ratio: 6.133
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.004618
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 11
+Number of defects in the right hemisphere: 13
+Topological fixing time for the left hemisphere: 0.8 min
+Topological fixing time for the right hemisphere: 2.0 min
+Number of holes in the left hemisphere: 9
+Number of holes in the right hemisphere: 9
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.851
+WM/GM contrast SNR for the right hemisphere: 3.755
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0947, y = -0.055, z = -0.0192 radians.
+Finished subject sub-000148_ffs at 2024-01-30 16:52 MSK
+Starting fsqc for subject sub-914102_ffs at 2024-01-30 16:52 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.82
+Gray matter signal to noise ratio: 7.084
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.71
+Gray matter signal to noise ratio: 6.117
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003079
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 13
+Number of defects in the right hemisphere: 10
+Topological fixing time for the left hemisphere: 0.7 min
+Topological fixing time for the right hemisphere: 2.4 min
+Number of holes in the left hemisphere: 12
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.874
+WM/GM contrast SNR for the right hemisphere: 3.816
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.122, y = 0.00148, z = 0.038 radians.
+Finished subject sub-914102_ffs at 2024-01-30 16:53 MSK
+Starting fsqc for subject sub-127867_ffs at 2024-01-30 16:53 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.15
+Gray matter signal to noise ratio: 7.561
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.13
+Gray matter signal to noise ratio: 6.193
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002962
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 12
+Number of defects in the right hemisphere: 7
+Topological fixing time for the left hemisphere: 0.8 min
+Topological fixing time for the right hemisphere: 0.9 min
+Number of holes in the left hemisphere: 4
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.61
+WM/GM contrast SNR for the right hemisphere: 3.614
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.261, y = 0.0798, z = 0.116 radians.
+Finished subject sub-127867_ffs at 2024-01-30 16:53 MSK
+Starting fsqc for subject sub-152686_ffs at 2024-01-30 16:53 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 7.872
+Gray matter signal to noise ratio: 3.49
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 23.41
+Gray matter signal to noise ratio: 6.074
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003969
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 9
+Number of defects in the right hemisphere: 4
+Topological fixing time for the left hemisphere: 1.6 min
+Topological fixing time for the right hemisphere: 1.2 min
+Number of holes in the left hemisphere: 4
+Number of holes in the right hemisphere: 1
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.943
+WM/GM contrast SNR for the right hemisphere: 3.91
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.131, y = 0.042, z = 0.0609 radians.
+Finished subject sub-152686_ffs at 2024-01-30 16:53 MSK
+Starting fsqc for subject sub-212152_ffs at 2024-01-30 16:53 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 8.855
+Gray matter signal to noise ratio: 5.349
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.4
+Gray matter signal to noise ratio: 6.271
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003756
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 5
+Topological fixing time for the left hemisphere: 0.3 min
+Number of defects in the right hemisphere: 11
+Topological fixing time for the right hemisphere: 1.1 min
+Number of holes in the left hemisphere: 2
+Number of holes in the right hemisphere: 1
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.783
+WM/GM contrast SNR for the right hemisphere: 3.897
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0719, y = -0.0263, z = 0.0963 radians.
+Finished subject sub-212152_ffs at 2024-01-30 16:53 MSK
+Starting fsqc for subject sub-567742_ffs at 2024-01-30 16:53 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.17
+Gray matter signal to noise ratio: 4.472
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.53
+Gray matter signal to noise ratio: 6.038
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002412
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 11
+Number of defects in the right hemisphere: 18
+Topological fixing time for the left hemisphere: 1.1 min
+Topological fixing time for the right hemisphere: 2.1 min
+Number of holes in the left hemisphere: 16
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.851
+WM/GM contrast SNR for the right hemisphere: 3.828
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0752, y = -0.0366, z = 0.0712 radians.
+Finished subject sub-567742_ffs at 2024-01-30 16:53 MSK
+Starting fsqc for subject sub-862915_ffs at 2024-01-30 16:53 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.06
+Gray matter signal to noise ratio: 5.625
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 24.05
+Gray matter signal to noise ratio: 5.966
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.004102
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 7
+Number of defects in the right hemisphere: 9
+Topological fixing time for the left hemisphere: 0.7 min
+Topological fixing time for the right hemisphere: 0.6 min
+Number of holes in the left hemisphere: 6
+Number of holes in the right hemisphere: 5
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.816
+WM/GM contrast SNR for the right hemisphere: 3.832
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0831, y = -0.0279, z = 0.0403 radians.
+Finished subject sub-862915_ffs at 2024-01-30 16:53 MSK
+Starting fsqc for subject sub-966788_ffs at 2024-01-30 16:53 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.79
+Gray matter signal to noise ratio: 7.739
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.27
+Gray matter signal to noise ratio: 6.465
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003094
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 14
+Number of defects in the right hemisphere: 4
+Topological fixing time for the left hemisphere: 1.0 min
+Topological fixing time for the right hemisphere: 2.0 min
+Number of holes in the left hemisphere: 3
+Number of holes in the right hemisphere: 9
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.731
+WM/GM contrast SNR for the right hemisphere: 3.573
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.189, y = -0.0401, z = 0.0512 radians.
+Finished subject sub-966788_ffs at 2024-01-30 16:54 MSK
+Starting fsqc for subject sub-848092_ffs at 2024-01-30 16:54 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.36
+Gray matter signal to noise ratio: 6.341
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.3
+Gray matter signal to noise ratio: 5.989
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003779
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 6
+Number of defects in the right hemisphere: 5
+Topological fixing time for the left hemisphere: 0.7 min
+Topological fixing time for the right hemisphere: 1.7 min
+Number of holes in the left hemisphere: 4
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.769
+WM/GM contrast SNR for the right hemisphere: 3.723
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.239, y = 0.0838, z = -0.0259 radians.
+Finished subject sub-848092_ffs at 2024-01-30 16:54 MSK
+Starting fsqc for subject sub-401697_ffs at 2024-01-30 16:54 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 11.21
+Gray matter signal to noise ratio: 6.483
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 23.07
+Gray matter signal to noise ratio: 6.375
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002751
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 6
+Number of defects in the right hemisphere: 8
+Topological fixing time for the left hemisphere: 0.7 min
+Topological fixing time for the right hemisphere: 0.9 min
+Number of holes in the left hemisphere: 3
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.819
+WM/GM contrast SNR for the right hemisphere: 3.729
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.107, y = -0.0631, z = 0.0381 radians.
+Finished subject sub-401697_ffs at 2024-01-30 16:54 MSK
+Starting fsqc for subject sub-946200_ffs at 2024-01-30 16:54 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 8.058
+Gray matter signal to noise ratio: 5.176
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.06
+Gray matter signal to noise ratio: 5.784
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003294
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 11
+Number of defects in the right hemisphere: 16
+Topological fixing time for the left hemisphere: 0.6 min
+Topological fixing time for the right hemisphere: 1.5 min
+Number of holes in the left hemisphere: 9
+Number of holes in the right hemisphere: 2
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.884
+WM/GM contrast SNR for the right hemisphere: 3.769
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.179, y = -0.0279, z = 0.095 radians.
+Finished subject sub-946200_ffs at 2024-01-30 16:54 MSK
+Starting fsqc for subject sub-000103_ffs at 2024-01-30 16:54 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.0
+Gray matter signal to noise ratio: 6.02
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.43
+Gray matter signal to noise ratio: 6.109
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003046
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 12
+Number of defects in the right hemisphere: 14
+Topological fixing time for the left hemisphere: 1.4 min
+Topological fixing time for the right hemisphere: 3.0 min
+Number of holes in the left hemisphere: 11
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.661
+WM/GM contrast SNR for the right hemisphere: 3.634
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.126, y = -0.0398, z = 0.0576 radians.
+Finished subject sub-000103_ffs at 2024-01-30 16:54 MSK
+Starting fsqc for subject sub-714347_ffs at 2024-01-30 16:54 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 11.69
+Gray matter signal to noise ratio: 6.869
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.51
+Gray matter signal to noise ratio: 6.76
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002101
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 14
+Number of defects in the right hemisphere: 9
+Topological fixing time for the left hemisphere: 0.7 min
+Topological fixing time for the right hemisphere: 1.7 min
+Number of holes in the left hemisphere: 9
+Number of holes in the right hemisphere: 5
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.947
+WM/GM contrast SNR for the right hemisphere: 3.749
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.207, y = -0.0516, z = 0.0727 radians.
+Finished subject sub-714347_ffs at 2024-01-30 16:54 MSK
+Starting fsqc for subject sub-680990_ffs at 2024-01-30 16:54 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.31
+Gray matter signal to noise ratio: 6.026
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.76
+Gray matter signal to noise ratio: 6.467
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003693
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 14
+Number of defects in the right hemisphere: 9
+Topological fixing time for the left hemisphere: 1.2 min
+Topological fixing time for the right hemisphere: 1.0 min
+Number of holes in the left hemisphere: 8
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.824
+WM/GM contrast SNR for the right hemisphere: 3.647
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.333, y = -0.0469, z = 0.0496 radians.
+Finished subject sub-680990_ffs at 2024-01-30 16:55 MSK
+Starting fsqc for subject sub-132674_ffs at 2024-01-30 16:55 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 7.11
+Gray matter signal to noise ratio: 3.576
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.16
+Gray matter signal to noise ratio: 5.832
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.004918
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 14
+Number of defects in the right hemisphere: 6
+Topological fixing time for the left hemisphere: 0.4 min
+Topological fixing time for the right hemisphere: 1.5 min
+Number of holes in the left hemisphere: 10
+Number of holes in the right hemisphere: 5
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.831
+WM/GM contrast SNR for the right hemisphere: 3.761
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0143, y = -0.0833, z = 0.00741 radians.
+Finished subject sub-132674_ffs at 2024-01-30 16:55 MSK
+Starting fsqc for subject sub-691777_ffs at 2024-01-30 16:55 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 15.95
+Gray matter signal to noise ratio: 7.493
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.94
+Gray matter signal to noise ratio: 6.661
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003844
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 8
+Number of defects in the right hemisphere: 14
+Topological fixing time for the left hemisphere: 0.6 min
+Topological fixing time for the right hemisphere: 1.3 min
+Number of holes in the left hemisphere: 10
+Number of holes in the right hemisphere: 3
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.726
+WM/GM contrast SNR for the right hemisphere: 3.743
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.161, y = -0.0203, z = 0.085 radians.
+Finished subject sub-691777_ffs at 2024-01-30 16:55 MSK
+Starting fsqc for subject sub-010769_ffs at 2024-01-30 16:55 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 11.25
+Gray matter signal to noise ratio: 6.385
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.77
+Gray matter signal to noise ratio: 5.855
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002439
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 11
+Number of defects in the right hemisphere: 6
+Topological fixing time for the left hemisphere: 1.0 min
+Topological fixing time for the right hemisphere: 0.8 min
+Number of holes in the left hemisphere: 3
+Number of holes in the right hemisphere: 8
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.773
+WM/GM contrast SNR for the right hemisphere: 3.68
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.211, y = -0.00673, z = 0.0162 radians.
+Finished subject sub-010769_ffs at 2024-01-30 16:55 MSK
+Starting fsqc for subject sub-185823_ffs at 2024-01-30 16:55 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 9.483
+Gray matter signal to noise ratio: 5.519
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 24.51
+Gray matter signal to noise ratio: 6.035
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002538
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 5
+Topological fixing time for the left hemisphere: 0.6 min
+Number of defects in the right hemisphere: 7
+Topological fixing time for the right hemisphere: 1.0 min
+Number of holes in the left hemisphere: 9
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 4.034
+WM/GM contrast SNR for the right hemisphere: 3.937
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.137, y = -0.0536, z = 0.0648 radians.
+Finished subject sub-185823_ffs at 2024-01-30 16:55 MSK
+Starting fsqc for subject sub-694330_ffs at 2024-01-30 16:55 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.3
+Gray matter signal to noise ratio: 6.188
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 18.04
+Gray matter signal to noise ratio: 5.894
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002687
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 12
+Number of defects in the right hemisphere: 9
+Topological fixing time for the left hemisphere: 0.8 min
+Topological fixing time for the right hemisphere: 1.8 min
+Number of holes in the left hemisphere: 10
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.812
+WM/GM contrast SNR for the right hemisphere: 3.85
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.148, y = 0.0192, z = 0.0588 radians.
+Finished subject sub-694330_ffs at 2024-01-30 16:55 MSK
+Starting fsqc for subject sub-253306_ffs at 2024-01-30 16:55 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 12.14
+Gray matter signal to noise ratio: 6.646
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 23.77
+Gray matter signal to noise ratio: 6.301
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003219
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 7
+Topological fixing time for the left hemisphere: 0.7 min
+Number of defects in the right hemisphere: 7
+Topological fixing time for the right hemisphere: 0.9 min
+Number of holes in the left hemisphere: 5
+Number of holes in the right hemisphere: 7
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.871
+WM/GM contrast SNR for the right hemisphere: 3.805
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0925, y = 0.0369, z = 0.0403 radians.
+Finished subject sub-253306_ffs at 2024-01-30 16:56 MSK
+Starting fsqc for subject sub-000149_ffs at 2024-01-30 16:56 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 12.32
+Gray matter signal to noise ratio: 6.922
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 23.19
+Gray matter signal to noise ratio: 6.46
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.004436
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 11
+Number of defects in the right hemisphere: 9
+Topological fixing time for the left hemisphere: 1.3 min
+Topological fixing time for the right hemisphere: 1.9 min
+Number of holes in the left hemisphere: 5
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.836
+WM/GM contrast SNR for the right hemisphere: 3.669
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.419, y = -0.0117, z = 0.0319 radians.
+Finished subject sub-000149_ffs at 2024-01-30 16:56 MSK
+Starting fsqc for subject sub-926536_ffs at 2024-01-30 16:56 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 9.398
+Gray matter signal to noise ratio: 5.81
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.71
+Gray matter signal to noise ratio: 6.062
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.00459
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 1
+Number of defects in the right hemisphere: 8
+Topological fixing time for the left hemisphere: 0.3 min
+Topological fixing time for the right hemisphere: 1.2 min
+Number of holes in the left hemisphere: 4
+Number of holes in the right hemisphere: 1
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.781
+WM/GM contrast SNR for the right hemisphere: 3.757
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.14, y = -0.048, z = 0.0448 radians.
+Finished subject sub-926536_ffs at 2024-01-30 16:56 MSK
+Starting fsqc for subject sub-278729_ffs at 2024-01-30 16:56 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 12.48
+Gray matter signal to noise ratio: 6.746
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.26
+Gray matter signal to noise ratio: 6.497
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002257
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 14
+Number of defects in the right hemisphere: 7
+Topological fixing time for the left hemisphere: 1.0 min
+Topological fixing time for the right hemisphere: 0.7 min
+Number of holes in the left hemisphere: 9
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.903
+WM/GM contrast SNR for the right hemisphere: 3.956
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.000383, y = 0.0137, z = -0.0121 radians.
+Finished subject sub-278729_ffs at 2024-01-30 16:56 MSK
+Starting fsqc for subject sub-107738_ffs at 2024-01-30 16:56 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 8.26
+Gray matter signal to noise ratio: 5.004
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.25
+Gray matter signal to noise ratio: 5.633
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003015
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 9
+Number of defects in the right hemisphere: 6
+Topological fixing time for the left hemisphere: 0.8 min
+Topological fixing time for the right hemisphere: 1.2 min
+Number of holes in the left hemisphere: 5
+Number of holes in the right hemisphere: 3
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.889
+WM/GM contrast SNR for the right hemisphere: 3.81
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.356, y = 0.0148, z = -0.00173 radians.
+Finished subject sub-107738_ffs at 2024-01-30 16:56 MSK
+Starting fsqc for subject sub-579247_ffs at 2024-01-30 16:56 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 15.15
+Gray matter signal to noise ratio: 7.279
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.09
+Gray matter signal to noise ratio: 5.843
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003443
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 7
+Number of defects in the right hemisphere: 7
+Topological fixing time for the left hemisphere: 1.1 min
+Topological fixing time for the right hemisphere: 1.4 min
+Number of holes in the left hemisphere: 8
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.971
+WM/GM contrast SNR for the right hemisphere: 3.818
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.158, y = 0.0179, z = 0.0318 radians.
+Finished subject sub-579247_ffs at 2024-01-30 16:56 MSK
+Starting fsqc for subject sub-365622_ffs at 2024-01-30 16:56 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 14.48
+Gray matter signal to noise ratio: 7.897
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.41
+Gray matter signal to noise ratio: 6.088
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003357
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 5
+Number of defects in the right hemisphere: 6
+Topological fixing time for the left hemisphere: 0.8 min
+Topological fixing time for the right hemisphere: 1.4 min
+Number of holes in the left hemisphere: 4
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.905
+WM/GM contrast SNR for the right hemisphere: 3.771
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.216, y = 0.0148, z = 0.0022 radians.
+Finished subject sub-365622_ffs at 2024-01-30 16:57 MSK
+Starting fsqc for subject sub-707576_ffs at 2024-01-30 16:57 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 16.16
+Gray matter signal to noise ratio: 7.853
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 22.17
+Gray matter signal to noise ratio: 6.82
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002656
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 18
+Number of defects in the right hemisphere: 12
+Topological fixing time for the left hemisphere: 1.1 min
+Topological fixing time for the right hemisphere: 1.8 min
+Number of holes in the left hemisphere: 17
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.7
+WM/GM contrast SNR for the right hemisphere: 3.636
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0879, y = -0.0836, z = 0.0134 radians.
+Finished subject sub-707576_ffs at 2024-01-30 16:57 MSK
+Starting fsqc for subject sub-886764_ffs at 2024-01-30 16:57 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 12.61
+Gray matter signal to noise ratio: 7.069
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 17.18
+Gray matter signal to noise ratio: 6.356
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003767
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 11
+Number of defects in the right hemisphere: 13
+Topological fixing time for the left hemisphere: 1.0 min
+Topological fixing time for the right hemisphere: 1.8 min
+Number of holes in the left hemisphere: 7
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.794
+WM/GM contrast SNR for the right hemisphere: 3.695
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.216, y = 0.0303, z = 0.0572 radians.
+Finished subject sub-886764_ffs at 2024-01-30 16:57 MSK
+Starting fsqc for subject sub-000159_ffs at 2024-01-30 16:57 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 11.52
+Gray matter signal to noise ratio: 6.663
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.41
+Gray matter signal to noise ratio: 6.548
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003895
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 12
+Number of defects in the right hemisphere: 8
+Topological fixing time for the left hemisphere: 1.5 min
+Topological fixing time for the right hemisphere: 1.6 min
+Number of holes in the left hemisphere: 5
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.787
+WM/GM contrast SNR for the right hemisphere: 3.626
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.19, y = -0.0307, z = -0.0145 radians.
+Finished subject sub-000159_ffs at 2024-01-30 16:57 MSK
+Starting fsqc for subject sub-691641_ffs at 2024-01-30 16:57 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.58
+Gray matter signal to noise ratio: 7.42
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.88
+Gray matter signal to noise ratio: 6.203
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.00459
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 8
+Number of defects in the right hemisphere: 8
+Topological fixing time for the left hemisphere: 1.0 min
+Topological fixing time for the right hemisphere: 1.3 min
+Number of holes in the left hemisphere: 7
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.756
+WM/GM contrast SNR for the right hemisphere: 3.726
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0221, y = 0.0621, z = 0.0488 radians.
+Finished subject sub-691641_ffs at 2024-01-30 16:57 MSK
+Starting fsqc for subject sub-136038_ffs at 2024-01-30 16:57 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.69
+Gray matter signal to noise ratio: 6.251
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.97
+Gray matter signal to noise ratio: 6.082
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.004054
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 4
+Number of defects in the right hemisphere: 6
+Topological fixing time for the left hemisphere: 0.7 min
+Topological fixing time for the right hemisphere: 2.1 min
+Number of holes in the left hemisphere: 5
+Number of holes in the right hemisphere: 3
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.661
+WM/GM contrast SNR for the right hemisphere: 3.654
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0578, y = -0.101, z = 0.0942 radians.
+Finished subject sub-136038_ffs at 2024-01-30 16:57 MSK
+Starting fsqc for subject sub-652881_ffs at 2024-01-30 16:57 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 12.79
+Gray matter signal to noise ratio: 7.109
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.13
+Gray matter signal to noise ratio: 6.432
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003401
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 16
+Number of defects in the right hemisphere: 9
+Topological fixing time for the left hemisphere: 0.8 min
+Topological fixing time for the right hemisphere: 1.6 min
+Number of holes in the left hemisphere: 11
+Number of holes in the right hemisphere: 6
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.776
+WM/GM contrast SNR for the right hemisphere: 3.728
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = 0.000988, y = 0.0157, z = 0.064 radians.
+Finished subject sub-652881_ffs at 2024-01-30 16:58 MSK
+Starting fsqc for subject sub-196711_ffs at 2024-01-30 16:58 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.11
+Gray matter signal to noise ratio: 6.749
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 22.64
+Gray matter signal to noise ratio: 5.988
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.002985
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 8
+Number of defects in the right hemisphere: 13
+Topological fixing time for the left hemisphere: 1.3 min
+Topological fixing time for the right hemisphere: 1.4 min
+Number of holes in the left hemisphere: 13
+Number of holes in the right hemisphere: 11
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.785
+WM/GM contrast SNR for the right hemisphere: 3.626
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0129, y = -0.0403, z = 0.0253 radians.
+Finished subject sub-196711_ffs at 2024-01-30 16:58 MSK
+Starting fsqc for subject sub-122916_ffs at 2024-01-30 16:58 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.79
+Gray matter signal to noise ratio: 7.444
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 18.19
+Gray matter signal to noise ratio: 6.363
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003741
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 7
+Number of defects in the right hemisphere: 7
+Topological fixing time for the left hemisphere: 1.9 min
+Topological fixing time for the right hemisphere: 1.8 min
+Number of holes in the left hemisphere: 11
+Number of holes in the right hemisphere: 8
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.791
+WM/GM contrast SNR for the right hemisphere: 3.799
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.016, y = -0.0651, z = -0.0178 radians.
+Finished subject sub-122916_ffs at 2024-01-30 16:58 MSK
+Starting fsqc for subject sub-593354_ffs at 2024-01-30 16:58 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.75
+Gray matter signal to noise ratio: 7.962
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 19.63
+Gray matter signal to noise ratio: 6.287
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.005519
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 8
+Number of defects in the right hemisphere: 8
+Topological fixing time for the left hemisphere: 0.5 min
+Topological fixing time for the right hemisphere: 1.1 min
+Number of holes in the left hemisphere: 3
+Number of holes in the right hemisphere: 5
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.656
+WM/GM contrast SNR for the right hemisphere: 3.641
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0969, y = 0.0201, z = 0.00186 radians.
+Finished subject sub-593354_ffs at 2024-01-30 16:58 MSK
+Starting fsqc for subject sub-581638_ffs at 2024-01-30 16:58 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 13.63
+Gray matter signal to noise ratio: 6.827
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 22.69
+Gray matter signal to noise ratio: 6.131
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003518
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 8
+Number of defects in the right hemisphere: 10
+Topological fixing time for the left hemisphere: 0.7 min
+Topological fixing time for the right hemisphere: 1.1 min
+Number of holes in the left hemisphere: 8
+Number of holes in the right hemisphere: 5
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.881
+WM/GM contrast SNR for the right hemisphere: 3.883
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.00163, y = -0.0198, z = 0.0988 radians.
+Finished subject sub-581638_ffs at 2024-01-30 16:58 MSK
+Starting fsqc for subject sub-009673_ffs at 2024-01-30 16:58 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 11.47
+Gray matter signal to noise ratio: 6.635
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 21.6
+Gray matter signal to noise ratio: 6.4
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003021
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 16
+Number of defects in the right hemisphere: 12
+Topological fixing time for the left hemisphere: 0.6 min
+Topological fixing time for the right hemisphere: 1.7 min
+Number of holes in the left hemisphere: 9
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.806
+WM/GM contrast SNR for the right hemisphere: 3.85
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.0943, y = -0.0832, z = 0.0711 radians.
+Finished subject sub-009673_ffs at 2024-01-30 16:58 MSK
+Starting fsqc for subject sub-890465_ffs at 2024-01-30 16:58 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 9.46
+Gray matter signal to noise ratio: 5.62
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 18.78
+Gray matter signal to noise ratio: 5.797
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.003507
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 10
+Number of defects in the right hemisphere: 14
+Topological fixing time for the left hemisphere: 0.8 min
+Topological fixing time for the right hemisphere: 0.8 min
+Number of holes in the left hemisphere: 10
+Number of holes in the right hemisphere: 10
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.811
+WM/GM contrast SNR for the right hemisphere: 3.811
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.187, y = 0.038, z = 0.0954 radians.
+Finished subject sub-890465_ffs at 2024-01-30 16:58 MSK
+Starting fsqc for subject sub-645865_ffs at 2024-01-30 16:58 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.45
+Gray matter signal to noise ratio: 6.148
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 20.84
+Gray matter signal to noise ratio: 6.102
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.004082
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 13
+Number of defects in the right hemisphere: 16
+Topological fixing time for the left hemisphere: 1.1 min
+Topological fixing time for the right hemisphere: 1.8 min
+Number of holes in the left hemisphere: 9
+Number of holes in the right hemisphere: 14
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.904
+WM/GM contrast SNR for the right hemisphere: 3.715
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.217, y = -0.0174, z = 0.0572 radians.
+Finished subject sub-645865_ffs at 2024-01-30 16:59 MSK
+Starting fsqc for subject sub-195765_ffs at 2024-01-30 16:59 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 10.02
+Gray matter signal to noise ratio: 5.768
+Computing white and gray matter SNR for norm.mgz ...
+White matter signal to noise ratio: 22.54
+Gray matter signal to noise ratio: 5.893
+Checking size of the corpus callosum ...
+Relative size of the corpus callosum is 0.004286
+Checking topology of the surfaces ...
+Number of defects in the left hemisphere: 8
+Number of defects in the right hemisphere: 10
+Topological fixing time for the left hemisphere: 0.6 min
+Topological fixing time for the right hemisphere: 0.8 min
+Number of holes in the left hemisphere: 7
+Number of holes in the right hemisphere: 4
+Checking WM/GM contrast SNR ...
+WM/GM contrast SNR for the left hemisphere: 3.713
+WM/GM contrast SNR for the right hemisphere: 3.729
+Computing Talairach rotation angles ...
+Found Talairach rotation angles: x = -0.282, y = 0.0169, z = 0.027 radians.
+Finished subject sub-195765_ffs at 2024-01-30 16:59 MSK
+Starting fsqc for subject sub-865293_ffs at 2024-01-30 16:59 MSK
+Computing white and gray matter SNR for orig.mgz ...
+White matter signal to noise ratio: 14.23
+Gray matter signal to noise ratio: 7.305
+Computing white and gray matter SNR for norm.mgz ...

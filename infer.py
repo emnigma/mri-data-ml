@@ -8,13 +8,25 @@ TEST_CSV_PATH = "data/mr-art_q3_incomplete/fsqc-results.csv"
 MODEL_PATH = "catboost_model0.80_pipeline.pkl"
 
 
+def decode(prediction: list[int]):
+    assert len(prediction) == 1
+    quality = prediction[0]
+    match quality:
+        case 1:
+            return 1
+        case 0:
+            return 2
+        case -1:
+            return 3
+    raise RuntimeError(f"Unknown classification result: {quality}")
+
+
 def main():
     parser = argparse.ArgumentParser(
-        # prog="FreeSurfer/FastSurfer quality predictor",
         description="Predicts quality of FreeSurfer/FastSurfer reconstruction based on fsqc output.\
             1 - perfect quality,\
-            0 - medium quality,\
-            -1 - bad quality",
+            2 - medium quality,\
+            3 - bad quality",
     )
 
     parser.add_argument(
@@ -48,7 +60,7 @@ def main():
         axis=1,
     )
 
-    result_str = " ".join((str(*prediction) for prediction in model.predict(df)))
+    result_str = " ".join((str(decode(prediction)) for prediction in model.predict(df)))
     print(result_str)
 
 
